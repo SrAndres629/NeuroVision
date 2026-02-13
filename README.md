@@ -7,6 +7,17 @@ Servidor especializado en **Visualización Arquitectónica 3D** y **Análisis de
 - **Impact Analysis**: Predice el "ripple effect" de un cambio en el código antes de ejecutarlo.
 - **Telemetry Bridge**: Permite a otros agentes inyectar logs de ejecución o errores directamente en el mapa visual.
 
+## Automatización
+El proyecto incluye un script de alto rendimiento para sincronización automática con GitHub:
+
+```bash
+# Sincronización básica (mensaje automático)
+python git_sync.py
+
+# Sincronización con mensaje personalizado
+python git_sync.py "feat: descripcion de mis cambios"
+```
+
 ## Instalación
 ```bash
 pip install -r requirements.txt
